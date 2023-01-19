@@ -1,5 +1,14 @@
+# Important please run this command...
+## I did not find any remote mysql database like mongoDb Atlas, that's why i've created the database locally.
+1- CREATE DATABASE mern_db;
+2- CREATE TABLE products(
+id INT(11) PRIMARY KEY AUTO_INCREMENT,
+title VARCHAR(200),
+price DOUBLE,
+createdAt DATE,
+updatedAt DATE
+)ENGINE=INNODB;
 
-# I did not find any remote mysql database like mongoDb, that's why i've created the database locally.
 ## Zero Item
 ![No item](https://user-images.githubusercontent.com/94215091/213460565-c5476a94-2da7-4be1-a594-3a8151490c67.png)
 
